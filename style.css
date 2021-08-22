@@ -1,13 +1,35 @@
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .bg{
     height: 20rem;
     width: 20rem;
+}
+.backimg{
+    background-image: url("images/pattern-bg.svg");
+    padding: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .uimg{
     height: 16rem;
     width: 16rem;
 }
-.userimg{
-    position: absolute;
-    top: 30px;
-    left: 30px;
+.user-info{
+    font-size: 32px;
+    text-align: center;
+    color: hsl(240, 18%, 77%);
+}
+.user-name{
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+.user_pos{
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
 }
